@@ -1,8 +1,8 @@
 {
-  "name": "@suburbicode/eslint-config",
+  "name": "@smcv/eslint-config",
   "version": "1.0.4",
   "main": "index.js",
-  "description": "An ESLint shareable config for Suburbicode projects",
+  "description": "An ESLint config for new projects",
   "keywords": [
     "eslint",
     "eslint-config"
@@ -10,24 +10,21 @@
   "scripts": {
     "test": "eslint . && ./check-peer"
   },
-  "author": "Suburbicode <suburbicode@pm.me>",
+  "author": "Yuri Sementsov <hello@smcv.dev>",
   "license": "MIT",
-  "repository": "suburbicode/eslint-config",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
+  "repository": "semencov/eslint-config",
   "engines": {
     "node": ">=8.3.0"
   },
   "dependencies": {
-    "globals": "^12.1.1"
+    "globals": "^12.2.0"
   },
   "peerDependencies": {
-    "eslint": "^6.5.1",
+    "eslint": "^6.6.0",
     "eslint-config-standard": "^14.1.0",
     "eslint-plugin-es5": "^1.4.1",
     "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jest": "^22.19.0",
+    "eslint-plugin-jest": "^23.0.3",
     "eslint-plugin-node": "^10.0.0",
     "eslint-plugin-prefer-arrow": "^1.1.6",
     "eslint-plugin-prefer-let": "^1.0.1",
@@ -37,11 +34,11 @@
     "eslint-plugin-unicorn": "^12.1.0"
   },
   "devDependencies": {
-    "eslint": "^6.5.1",
+    "eslint": "^6.6.0",
     "eslint-config-standard": "^14.1.0",
     "eslint-plugin-es5": "^1.4.1",
     "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jest": "^22.19.0",
+    "eslint-plugin-jest": "^23.0.3",
     "eslint-plugin-node": "^10.0.0",
     "eslint-plugin-prefer-arrow": "^1.1.6",
     "eslint-plugin-prefer-let": "^1.0.1",
@@ -49,9 +46,9 @@
     "eslint-plugin-security": "^1.4.0",
     "eslint-plugin-standard": "^4.0.1",
     "eslint-plugin-unicorn": "^12.1.0",
-    "husky": "^3.0.8",
+    "husky": "^3.0.9",
     "jest": "^24.9.0",
-    "lint-staged": "^9.4.2"
+    "lint-staged": "^9.4.3"
   },
   "husky": {
     "hooks": {

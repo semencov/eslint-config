@@ -1,0 +1,9 @@
+{
+  "changelog": {
+    "enabled": false
+  },
+  "tag": {
+    "enabled": true,
+    "name": "v[version]"
+  }
+}

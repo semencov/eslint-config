@@ -5,7 +5,7 @@ Shareable code style for Suburbicode projects.
 ## Install
 
 ```sh
-yarn add --dev @suburbicode/eslint-config eslint-config-standard eslint-plugin-promise eslint-plugin-jest eslint-plugin-node eslint-plugin-es5 eslint-plugin-standard eslint-plugin-security eslint-plugin-import eslint-plugin-prefer-let eslint-plugin-unicorn eslint
+yarn add --dev @suburbicode/eslint-config eslint-config-standard eslint-plugin-promise eslint-plugin-jest eslint-plugin-node eslint-plugin-es5 eslint-plugin-standard eslint-plugin-security eslint-plugin-import eslint-plugin-prefer-let eslint-plugin-prefer-arrow eslint-plugin-unicorn eslint
 ```
 
 
